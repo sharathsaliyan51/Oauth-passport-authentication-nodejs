@@ -1,0 +1,25 @@
+{
+  "name": "oauth-passport-authentication-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharathsaliyan51/Oauth-passport-authentication-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharathsaliyan51/Oauth-passport-authentication-nodejs/issues"
+  },
+  "homepage": "https://github.com/sharathsaliyan51/Oauth-passport-authentication-nodejs#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
