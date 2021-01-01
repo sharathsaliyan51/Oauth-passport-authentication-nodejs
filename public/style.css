@@ -40,3 +40,8 @@
         padding: 0 10px;
         color: #333;
     }
+    .content{
+        background-color: aqua;
+        height: 400px;
+        width : 300px;
+    }

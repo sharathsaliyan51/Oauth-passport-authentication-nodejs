@@ -19,13 +19,16 @@
             <li><a href="/profile">profile</a></li>
         </ul>
     </nav>
-    <header>
-        <h1> Welcome to your profile, <%= user.username %></h1>
+    <div class="content">
+        <header>
+            <h1> Welcome to your profile, <%= user.username %></h1>
 
-    </header>
-    <main>
-        <img src="<%= user.thumbnail %>" alt="">
-    </main>
+        </header>
+        <main>
+            <img src="<%= user.thumbnail %>" alt="">
+        </main>
+    </div>
+
 </body>
 
 </html>
