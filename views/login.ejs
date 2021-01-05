@@ -2,21 +2,15 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oauth using node</title>
     <link rel="stylesheet" href="/style.css" type="text/css">
 </head>
 
 <body>
     <nav>
-        <ul>
-
-            <% if(user) { %>
-            <li><a href="/auth/logout">Logout</a></li>
-            <% }else { %>
-            <li><a href="/auth/login">Login</a></li>
-            <% } %>
-            <li><a href="/profile">profile</a></li>
-
-        </ul>
+        <h1>GOOGLE OAUTH</h1>
     </nav>
     <main>
         <a href="/auth/google"><img src="/btn_google_signin_dark_pressed_web.png"></a>
